@@ -1,0 +1,96 @@
+h1{
+    color: rgb(8, 8, 8);
+    margin-bottom: 75px;
+    margin-left: 30px;
+}
+
+#registerbtn{
+    color: rgb(241, 240, 240);
+    background-color: black;
+    margin: 2px;
+    margin-left: 40px;
+    margin-top: 2px;
+    padding: 5px;
+    padding-top: 2px;
+    font-weight: 600;
+}
+
+#registerbtn:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+}
+    
+ #loginbtn{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 2px;
+    margin-left: 2px;
+    margin-bottom: 70px;
+    padding: 5px;
+    padding-top: 2px;
+    font-weight: 600;
+
+}
+
+#loginbtn:hover{
+    background: #171717;
+    transform: translateY(-10px);
+    box-shadow: 0 0 5px #090909,0 0 25px #0b0b0b,0 0 50px #111111,0 0 200px #070707;
+
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 231, 231);
+    animation-duration: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(ronaldo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(232, 151, 227);
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 1rem;
+    box-shadow: 0 0 20px 8px rgba(205, 50, 236, 0.874);
+}
+
+.login{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(232, 151, 227);
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 1rem;
+    box-shadow: 0 0 20px 8px rgba(205, 50, 236, 0.874);
+
+}
+.forget{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(232, 151, 227);
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 1rem;
+    box-shadow: 0 0 20px 8px rgba(205, 50, 236, 0.874);
+
+}
+#label{
+    color: black;
+}
